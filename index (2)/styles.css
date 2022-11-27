@@ -1,0 +1,15 @@
+.form-group {
+  overflow: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 2px dashed gainsboro;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+.time {
+  display: none !important;
+}
